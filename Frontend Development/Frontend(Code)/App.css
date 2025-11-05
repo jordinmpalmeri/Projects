@@ -1,0 +1,72 @@
+#root {
+  width: 100%;
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #add8e6;
+  color: black;
+}
+
+body
+{
+  background-color: #add8e6;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/*Shrinks logo for landing page*/
+.logo-landingPage
+{
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  /*
+   * Idk what the heck I did, but when
+   * I added this custom tag to the <img>
+   * element in Landing Page, it fixed the
+   * issue even though I didn't need to
+   * change anything ~ jay
+   */
+}
+
+/* for split view (format.jsx) */
+.split-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar, .mainview {
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #add8e6;
+}
+
+.sidebar {
+  flex: 1;
+  border-right: black solid 2px;
+}
+
+.mainview {
+  flex: 7;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.sign-in-button {
+  background-color: blue;
+  color: azure;
+  align-items: center;
+}

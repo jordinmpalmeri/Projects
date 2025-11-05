@@ -1,0 +1,63 @@
+
+.instructor-box {
+  background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px
+}
+
+  .instructor-heading{
+    font-weight: bold;
+  }
+  
+  /* Main content area */
+  /* .mainview {
+    width: 80%;
+    padding: 20px;
+    background-color: #e6f7ff;
+  } */
+  
+  .AssignmentsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  .AssignmentsTable th,
+  .AssignmentsTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .AssignmentsTable th {
+    background-color: #888;
+    color: white;
+  }
+  
+  .AssignmentsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Status colors */
+  .status-review {
+    color: orange;
+  }
+  
+  .status-finished {
+    color: green;
+  }
+  
+  .status-not-turned-in {
+    color: red;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px
+  }

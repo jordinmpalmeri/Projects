@@ -1,0 +1,48 @@
+  
+  .main-content {
+    padding: 16px;
+    align-items: left;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submissions {
+    padding: 16px;
+    align-items: left;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);padding: 16px;
+    align-items: left;
+    background-color: white;
+  }
+
+  .segments {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Two equal columns */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px
+  }
+  
+  .button-submission {
+    background-color: lightgrey;
+    padding: 8px;
+    width: 50%;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button-different-assignment {
+    margin-top: 10px; /* This will push the "Finish" button to the bottom */
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+  }

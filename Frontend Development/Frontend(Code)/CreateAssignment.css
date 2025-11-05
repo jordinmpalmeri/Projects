@@ -1,0 +1,215 @@
+.main-content {
+    padding: 16px;
+    text-align: left;
+    background-color: white;
+  }
+  
+  .right-panel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .group-size-box {
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group-size-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .group-size-box input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .segments {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+
+  .project-info {
+    text-align: left;
+    gap: 20px
+  }
+
+  .project-description {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+
+  .project-description form input {
+    width: 100%;
+    align-items: left;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: grey;
+  }
+  
+  .project-description form textarea {
+    width: 100%;
+    height: 120px;
+    align-items: left;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: grey;
+  }
+
+  .group-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group {
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px
+  }
+  
+  .button-randomize-groups {
+    color:black;
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button-cancel{
+    color:black;
+    margin-top: 600px;
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button-publish-assignment {
+    color:white;
+    margin-top: 20px;
+    background-color: #318de2;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button-cancel-assignment {
+    margin-top: 200px;
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #CourseName {
+    width: 250px;         /* Set width */
+    height: 40px;         /* Set height */
+    font-size: 16px;      /* Adjust font size */
+    padding: 10px;        /* Add padding inside */
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 8px;   /* Rounded corners */
+    outline: none;        /* Remove default focus outline */
+}
+
+/* Change border color when focused */
+#CourseName:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#Coursedescription {
+  width: 90%;            /* Full width */
+  height: 150px;          /* Set height */
+  font-size: 16px;        /* Readable text size */
+  padding: 10px;          /* Padding for comfort */
+  border: 2px solid #007BFF; /* Blue border */
+  border-radius: 8px;     /* Rounded corners */
+  outline: none;          /* Remove default focus outline */
+  resize: none;            /* Prevent resizing */
+}
+
+/* Change border color when focused */
+#Coursedescription:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.date-input {
+  width: 200px;           /* Set a fixed width */
+  font-size: 16px;        /* Make text readable */
+  padding: 8px;           /* Add padding */
+  border: 2px solid #007BFF; /* Blue border */
+  border-radius: 6px;     /* Rounded corners */
+  outline: none;          /* Remove default focus outline */
+  cursor: pointer;        /* Show pointer when hovered */
+  margin-bottom: 20px;     /* Add space below the date input */
+}
+
+/* Change border color when focused */
+.date-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Change border color when focused */
+#Roster:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#Roster {
+width: 90%;            /* Full width */
+height: 150px;          /* Set height */
+font-size: 16px;        /* Readable text size */
+padding: 10px;          /* Padding for comfort */
+border: 2px solid #007BFF; /* Blue border */
+border-radius: 8px;     /* Rounded corners */
+outline: none;          /* Remove default focus outline */
+resize: none;            /* Prevent resizing */
+}
+

@@ -1,0 +1,66 @@
+.instructor-box {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .instructor-heading {
+    font-weight: bold;
+  }
+  
+  /* Submissions Table */
+  .SubmissionsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  .SubmissionsTable th,
+  .SubmissionsTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .SubmissionsTable th {
+    background-color: #888;
+    color: white;
+  }
+  
+  .SubmissionsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+/* Status Colors */
+.status-not-submitted {
+    color: red;
+  }
+  
+  .status-submitted {
+    color: green;
+  }
+  
+  
+  /* Hover effect for rows */
+  .SubmissionsTable tr:hover {
+    background-color: #d4eaff;
+    cursor: pointer;
+  }
+  
+  /* Instructor Info Box */
+  .instructor-box {
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page Header */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
