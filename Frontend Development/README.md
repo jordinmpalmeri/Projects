@@ -1,10 +1,10 @@
-### Collaborative Coding Feedback Platform
+# Collaborative Coding Feedback Platform
 
 A web-based platform designed for introductory computer science courses. The system allows teachers to create classes and assignments, form student groups, and enable students to submit code and provide feedback on each other's work. The goal was to support peer review and collaborative learning in programming environments.
 
 This project was developed using React for the frontend and Django for the backend. Our team followed a Scrum development methodology.
 
-# Note: Some backend data and configuration are no longer available, so the application is not currently runnable. This repository is intended for reference and demonstration of development work.
+### Note: Some backend data and configuration are no longer available, so the application is not currently runnable. This repository is intended for reference and demonstration of development work.
 
 ## Features
 
