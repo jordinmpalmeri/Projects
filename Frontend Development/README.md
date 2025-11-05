@@ -25,7 +25,7 @@ Backend: Django
 Version Control: Git & GitHub
 
 ## My Contributions
-# Sprint 1
+### Sprint 1
 
   - Implemented the CreateAssignment page and group randomization functionality
 
@@ -35,7 +35,7 @@ Version Control: Git & GitHub
 
   - Refactored the CoursesView page for consistent structure and formatting
 
-# Sprint 2
+### Sprint 2
 
   - Took on a major role in backend development, pair-programming most backend features
 
